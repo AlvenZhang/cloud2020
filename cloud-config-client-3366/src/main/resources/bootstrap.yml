@@ -1,5 +1,5 @@
 server:
-  port: 3355
+  port: 3366
 
 spring:
   application:
@@ -16,11 +16,11 @@ spring:
     username: guest
     password: guest
 
+
 eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
-
 management:
   endpoints:
     web:
